@@ -1,0 +1,9 @@
+{
+  "name": "MagellanRx Management Portal",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "manifest_version": 2,
+  "version": "0.1"
+}

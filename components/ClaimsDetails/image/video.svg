@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>video</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="video" fill="#00A8E2">
+            <path d="M10.656,5.744 L6,8.4 L6,3.056 L10.656,5.744 Z M14,9.744 L14,1.744 L2,1.744 L2,9.744 L14,9.744 Z M14,0.4 C14.3626685,0.4 14.677332,0.53066536 14.944,0.792 C15.210668,1.05333464 15.344,1.3706648 15.344,1.744 L15.312,9.744 C15.312,10.1066685 15.1840013,10.4159987 14.928,10.672 C14.6719987,10.9280013 14.3626685,11.056 14,11.056 L10.656,11.056 L10.656,12.4 L5.344,12.4 L5.344,11.056 L2,11.056 C1.6266648,11.056 1.30933464,10.9280013 1.048,10.672 C0.78666536,10.4159987 0.656,10.1066685 0.656,9.744 L0.656,1.744 C0.656,1.3706648 0.78666536,1.05333464 1.048,0.792 C1.30933464,0.53066536 1.6266648,0.4 2,0.4 L14,0.4 Z" id="ondemand_video---material"></path>
+        </g>
+    </g>
+</svg>

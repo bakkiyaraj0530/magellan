@@ -1,0 +1,293 @@
+.claim-tablepanel{
+	padding:0 80px;
+	font:normal 14px ubuntumedium;
+	a{
+		color:#0074cb;
+	}
+	a:hover{
+		text-decoration:none;
+	}
+}
+.claim-range{
+	float:left;
+	img{
+		margin-left:5px;
+		height:auto;
+	}
+	a{
+		color:#005398;
+	}
+}
+.claim-download{
+	float:right;
+	a[href]{
+		color:#0074cb;
+	}
+	a{
+		background:url(../image/download.svg) no-repeat;
+		padding:0 0 0 24px;
+		background-size: 20px 15px;
+		color:#9B9B9B;
+	}
+}
+.claim-download.inactive{
+	float:right;
+	a[href]{
+		color:#9B9B9B;
+	}
+	a{
+		background:url(../image/download-innactive.svg) no-repeat;
+		padding:0 0 0 24px;
+		background-size: 20px 15px;
+	}
+}
+.claimhistory-list{
+	float:left;
+	width:100%;
+	padding:30px 0 0;
+	margin:0;
+	li{
+		list-style:none;
+		font:normal 14px ubunturegular;
+		padding:15px 0;
+		border:none;
+		box-shadow:0 0 0 0;
+		margin:0;
+		border-radius:0;
+		border-bottom:#ededed 2px solid;
+		div{
+			padding:0;
+			color:#000;
+		}
+	}
+	li.panel{
+		border-radius:0;
+		margin:0!important;
+	}
+	li.claimlist-head{
+		border-bottom:#9b9b9b 2px solid;
+		padding:0 0 4px 0;
+		div{
+			font:normal 12px ubuntubold;
+			line-height:13px;
+		.mag-claim-sortTxt{
+			color:#005398;
+		}
+		.mag-claim-sortTxt.inactive{
+			color:#9B9B9B;
+		}
+		.mag-claim-sortImg{
+			background:url(./image/sort.svg) no-repeat;
+			background-size: 20px 15px;
+			padding-right:24px;
+		}
+		.mag-claim-sortImg.inactive{
+			background:url(./image/sort-innactive.svg) no-repeat;
+			background-size: 20px 15px;
+			padding-right:24px;
+		}
+		br{
+			display:none;
+		}
+		}
+	}
+	.no-available-claims{
+		border:none;
+		text-align:center;
+		color:#9b9b9b;
+		font:normal 20px ubunturegular;
+		padding-top:38px;
+	}
+	.cm-left,.cm-right{
+		padding:0;
+	}
+	.moreinfo{
+		text-align:right;
+	}
+	.more-info{
+		font-family:ubuntumedium;
+		img{
+			vertical-align:baseline;
+			margin-left:4px;
+		}
+	}
+	.video-playicon{
+		img{
+			vertical-align:sub;
+			margin-left:10px;
+		}
+	}
+	.denied{
+		color:#c8102e;
+	}
+	.rejected{
+		color:#ed8b00;
+	}
+	.paid{
+		color:#509e2f;
+	}
+	.accarrow{
+		width:14px;
+		height:8px;
+		display:inline-block;
+	}
+	.down-arrow{
+		background:url(./image/arrow.svg) no-repeat;
+	}
+	.up-arrow{
+		background:url(./image/arrowdown.svg) no-repeat;
+	}
+}
+.claimhistory-list li div.claimexpanded-content{
+	padding:0;
+	float:left;
+	width:100%;
+	background:#fafafa;
+	border-top:#ededed 2px solid;
+	margin-top:15px;
+	margin-bottom:-15px;
+}
+.claimexpanded-content{
+	.panel-body{
+		padding:15px;
+	}
+	.plancost{
+		text-align:center;
+	}
+	.expand-left{
+		padding-right:10px;
+		p{
+			margin:0;
+			font:normal 14px ubunturegular;
+			color:#000;
+			line-height:20px;
+		}
+	}
+	.expand-right{
+		p{
+			margin:0 0 8px;
+			font:normal 14px ubunturegular;
+			color:#000;
+			line-height:18px;
+			span{
+				display:block;
+				font:normal 12px ubuntubold;
+				color:#000;
+			}
+		}
+	}
+	.quantity-count{
+		text-align:right;
+	}
+}
+.claimhistory-list li{
+	.planing-list{
+		padding-top:10px;
+		div{
+			color:#005398;
+			font:normal 14px ubuntulight;
+			span{
+				display:block;
+				font:normal 23px ubuntumedium;
+			}
+		}
+		p{
+			padding:0;
+			margin:0;
+		}
+	}
+}
+.video-panel{
+	float:left;
+	line-height:15px;
+	min-width:22px;
+	min-height:19px;
+}
+
+/*desktopend*/
+/*Ipad landscape*/
+@media(max-width:1199px){
+	.claim-tablepanel{
+		padding:0;
+		margin-top: 30px;
+	}
+	.claim-info{
+		padding:0;
+	}
+}
+/*Ipad portrait*/
+@media(max-width:991px){
+	.claimhistory-list{
+		li.claimlist-head{
+			div{
+			br{
+				display:block;
+			}
+			.mag-claim-sortTxt{
+				float:left;
+				padding-right:6px;
+			}
+		}
+		}
+	}
+	.claimexpanded-content{
+		.plancost{
+			padding-left:15px;
+			padding-right:15px;
+		}
+	}
+	.claimhistory-list li{
+		font-size:12px;
+	}
+}
+/*mobile css*/
+@media(max-width:767px){
+	.claimhistory-list{
+		border-top:2px solid #ededed;
+		padding:0;
+		margin-top:15px;
+		margin-bottom:20px;
+	}
+	.claimhistory-list .cm-right{
+		text-align:right;
+	}
+	.claimhistory-list .title-attr::before,.claimhistory-list .status::before{
+		content: attr(data-title);
+		display: block;
+		padding-bottom:0;
+		float:left;
+		width:100%;
+		font:normal 12px ubuntubold;
+		color:#000;
+	}
+	.claimhistory-list li{
+		div{
+		padding-bottom:7px;
+		}
+	div.moreinfo{
+		padding:0;
+		text-align:left;
+		}
+	}
+	.claimexpanded-content{
+		.expand-left{
+			padding-right:0;
+		}
+		.expand-right{
+			padding-bottom:0;
+		}
+	}
+.claimhistory-list li  .claimexpanded-content{
+		.planing-list{
+			padding-bottom:0;
+			margin-bottom:-12px;
+			padding-top:0;
+		}
+	}
+.video-panel{
+	display:none;
+}
+}/*767end*/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { height: 1%; }
+.clearfix { display: block; }
